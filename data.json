@@ -1,0 +1,63 @@
+"projects": [
+    {
+        "id": 0,
+        "project_name": "word-guessing-game",
+        "description": "Project requiring a word guessing game built with Javascript.",
+        "technologies": [
+            "Html",
+            "CSS",
+            "Javascript"
+        ],
+        "live_link": "Link to the live version of the project.",
+        "github_link": "https://github.com/DavidMcLaughlin55/word-guessing-game.git",
+        "image_urls": [
+            "Array of strings containing file paths from the views folder to the images themselves"
+        ]
+    }
+    {
+        "id": 1,
+        "project_name": "data-pagination-project",
+        "description": "A javascript project using pagination to enhance usability.",
+        "technologies": [
+            "Html",
+            "CSS",
+            "Javascript"
+        ],
+        "live_link": "Link to the live version of the project.",
+        "github_link": "https://github.com/DavidMcLaughlin55/data-pagination-project.git",
+        "image_urls": [
+            "Array of strings containing file paths from the views folder to the images themselves"
+        ]
+    }
+    {
+        "id": 2,
+        "project_name": "interactive-registration-form",
+        "description": "Project requiring a build of a responsive registration form.",
+        "technologies": [
+            "Html",
+            "CSS",
+            "Javascript"
+        ],
+        "live_link": "Link to the live version of the project.",
+        "github_link": "https://github.com/DavidMcLaughlin55/responsive-registration-form.git",
+        "image_urls": [
+            "Array of strings containing file paths from the views folder to the images themselves"
+        ]
+    }
+    {
+        "id": 3,
+        "project_name": "public-api-project",
+        "description": "Project creating a directory using an API.",
+        "technologies": [
+            "Html",
+            "CSS",
+            "Javascript",
+            "API"
+        ],
+        "live_link": "Link to the live version of the project.",
+        "github_link": "https://github.com/DavidMcLaughlin55/public-api-project.git",
+        "image_urls": [
+            "Array of strings containing file paths from the views folder to the images themselves"
+        ]
+    }
+]
