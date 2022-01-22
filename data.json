@@ -8,7 +8,7 @@
             "CSS",
             "Javascript"
         ],
-        "live_link": "Link to the live version of the project.",
+        "live_link": "https://davidmclaughlin55.github.io/word-guessing-game/",
         "github_link": "https://github.com/DavidMcLaughlin55/word-guessing-game.git",
         "image_urls": [
             "Array of strings containing file paths from the views folder to the images themselves"
@@ -23,7 +23,7 @@
             "CSS",
             "Javascript"
         ],
-        "live_link": "Link to the live version of the project.",
+        "live_link": "https://davidmclaughlin55.github.io/data-pagination-project/",
         "github_link": "https://github.com/DavidMcLaughlin55/data-pagination-project.git",
         "image_urls": [
             "Array of strings containing file paths from the views folder to the images themselves"
@@ -38,8 +38,8 @@
             "CSS",
             "Javascript"
         ],
-        "live_link": "Link to the live version of the project.",
-        "github_link": "https://github.com/DavidMcLaughlin55/responsive-registration-form.git",
+        "live_link": "https://davidmclaughlin55.github.io/interactive-registration-form/",
+        "github_link": "https://github.com/DavidMcLaughlin55/interactive-registration-form.git",
         "image_urls": [
             "Array of strings containing file paths from the views folder to the images themselves"
         ]
@@ -54,7 +54,7 @@
             "Javascript",
             "API"
         ],
-        "live_link": "Link to the live version of the project.",
+        "live_link": "https://davidmclaughlin55.github.io/public-api-project/",
         "github_link": "https://github.com/DavidMcLaughlin55/public-api-project.git",
         "image_urls": [
             "Array of strings containing file paths from the views folder to the images themselves"
