@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-const projectsData = require('./data/data.json');
+// const projectsData = require('./data/data.json');
 
 app.set('view engine', 'pug'); //sets view engine to "Pug"
 
@@ -10,18 +10,37 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use('/static', express.static('public')); //Serves the static files located in the 'public' folder
 
 //Routes
-app.get('/', (req, res) => {
-    res.render('index', { projects: projectsData.projects });
+const homeRoute = require('./routes');
+const aboutRoute = require('./routes/about');
+const projectRoute = require('./routes/project');
+
+app.use(homeRoute);
+app.use('/about', aboutRoute);
+app.use('/project/:id', projectRoute);
+
+//Error Handlers
+
+app.use((req, res, next) => {
+    console.log("Error has occured");
+    const err = new Error();
+    err.status = 404;
+    err.message = "Oh oh! It looks like something went wrong.";
+    next(err);
 });
 
-app.get('/about', (req, res) => {
-    res.render('about');
-});
+app.use((err, req, res, next) => {
 
-app.get('/project', (req, res) => {
-    res.render('project');
+    if (err.status === 404) {
+        console.log("Error 404");
+        res.status = 404;
+        res.render('error404', err);
+    } else {
+        console.log("Error 505")
+        err.message = err.message;
+        err.status = 500;
+        res.render('error500', err);
+    };
 });
-
 
 //Listener 
 app.listen(port, () => {
