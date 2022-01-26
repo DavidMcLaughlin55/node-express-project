@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "id": 0,
+            "id": 1,
             "project_name": "word-guessing-game",
             "description": "Project requiring a word guessing game built with Javascript.",
             "technologies": [
@@ -12,11 +12,14 @@
             "live_link": "https://davidmclaughlin55.github.io/word-guessing-game/",
             "github_link": "https://github.com/DavidMcLaughlin55/word-guessing-game.git",
             "image_urls": [
-                "Array of strings containing file paths from the views folder to the images themselves"
+                "../img/word-guessing-game-img/image1.png",
+                "../img/word-guessing-game-img/image2.png",
+                "../img/word-guessing-game-img/image3.png",
+                "../img/word-guessing-game-img/image4.png"
             ]
         },
         {
-            "id": 1,
+            "id": 2,
             "project_name": "data-pagination-project",
             "description": "A javascript project using pagination to enhance usability.",
             "technologies": [
@@ -27,11 +30,14 @@
             "live_link": "https://davidmclaughlin55.github.io/data-pagination-project/",
             "github_link": "https://github.com/DavidMcLaughlin55/data-pagination-project.git",
             "image_urls": [
-                "Array of strings containing file paths from the views folder to the images themselves"
+                "../img/data-pagination-game-img/image1.png",
+                "../img/data-pagination-game-img/image2.png",
+                "../img/data-pagination-game-img/image3.png",
+                "../img/data-pagination-game-img/image4.png"
             ]
         },
         {
-            "id": 2,
+            "id": 3,
             "project_name": "interactive-registration-form",
             "description": "Project requiring a build of a responsive registration form.",
             "technologies": [
@@ -42,11 +48,14 @@
             "live_link": "https://davidmclaughlin55.github.io/interactive-registration-form/",
             "github_link": "https://github.com/DavidMcLaughlin55/interactive-registration-form.git",
             "image_urls": [
-                "Array of strings containing file paths from the views folder to the images themselves"
+                "../img/interactive-registration-form-img/image1.png",
+                "../img/interactive-registration-form-img/image2.png",
+                "../img/interactive-registration-form-img/image3.png",
+                "../img/interactive-registration-form-img/image4.png"
             ]
         },
         {
-            "id": 3,
+            "id": 4,
             "project_name": "public-api-project",
             "description": "Project creating a directory using an API.",
             "technologies": [
@@ -58,7 +67,10 @@
             "live_link": "https://davidmclaughlin55.github.io/public-api-project/",
             "github_link": "https://github.com/DavidMcLaughlin55/public-api-project.git",
             "image_urls": [
-                "Array of strings containing file paths from the views folder to the images themselves"
+                "../img/public-api-project-img/image1.png",
+                "../img/public-api-project-img/image2.png",
+                "../img/public-api-project-img/image3.png",
+                "../img/public-api-project-img/image4.png"
             ]
         }
     ]

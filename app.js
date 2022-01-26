@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-// const projectsData = require('./data/data.json');
+//const projectsData = require('./data/data.json');
 
 app.set('view engine', 'pug'); //sets view engine to "Pug"
 
@@ -16,15 +16,14 @@ const projectRoute = require('./routes/project');
 
 app.use(homeRoute);
 app.use('/about', aboutRoute);
-app.use('/project/:id', projectRoute);
+app.use('/project', projectRoute);
 
 //Error Handlers
-
 app.use((req, res, next) => {
     console.log("Error has occured");
     const err = new Error();
     err.status = 404;
-    err.message = "Oh oh! It looks like something went wrong.";
+    err.message = "Oh no! It looks like something went wrong.";
     next(err);
 });
 
