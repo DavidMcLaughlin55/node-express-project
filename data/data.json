@@ -12,10 +12,10 @@
             "live_link": "https://davidmclaughlin55.github.io/word-guessing-game/",
             "github_link": "https://github.com/DavidMcLaughlin55/word-guessing-game.git",
             "image_urls": [
-                "../img/word-guessing-game-img/image1.png",
-                "../img/word-guessing-game-img/image2.png",
-                "../img/word-guessing-game-img/image3.png",
-                "../img/word-guessing-game-img/image4.png"
+                "/static/img/word-guessing-game-img/image1.png",
+                "/static/img/word-guessing-game-img/image2.png",
+                "/static/img/word-guessing-game-img/image3.png",
+                "/static/img/word-guessing-game-img/image4.png"
             ]
         },
         {
@@ -30,10 +30,10 @@
             "live_link": "https://davidmclaughlin55.github.io/data-pagination-project/",
             "github_link": "https://github.com/DavidMcLaughlin55/data-pagination-project.git",
             "image_urls": [
-                "../img/data-pagination-game-img/image1.png",
-                "../img/data-pagination-game-img/image2.png",
-                "../img/data-pagination-game-img/image3.png",
-                "../img/data-pagination-game-img/image4.png"
+                "/static/img/data-pagination-game-img/image1.png",
+                "/static/img/data-pagination-game-img/image2.png",
+                "/static/img/data-pagination-game-img/image3.png",
+                "/static/img/data-pagination-game-img/image4.png"
             ]
         },
         {
@@ -48,10 +48,10 @@
             "live_link": "https://davidmclaughlin55.github.io/interactive-registration-form/",
             "github_link": "https://github.com/DavidMcLaughlin55/interactive-registration-form.git",
             "image_urls": [
-                "../img/interactive-registration-form-img/image1.png",
-                "../img/interactive-registration-form-img/image2.png",
-                "../img/interactive-registration-form-img/image3.png",
-                "../img/interactive-registration-form-img/image4.png"
+                "/static/img/interactive-registration-form-img/image1.png",
+                "/static/img/interactive-registration-form-img/image2.png",
+                "/static/img/interactive-registration-form-img/image3.png",
+                "/static/img/interactive-registration-form-img/image4.png"
             ]
         },
         {
@@ -67,10 +67,10 @@
             "live_link": "https://davidmclaughlin55.github.io/public-api-project/",
             "github_link": "https://github.com/DavidMcLaughlin55/public-api-project.git",
             "image_urls": [
-                "../img/public-api-project-img/image1.png",
-                "../img/public-api-project-img/image2.png",
-                "../img/public-api-project-img/image3.png",
-                "../img/public-api-project-img/image4.png"
+                "/static/img/public-api-project-img/image1.png",
+                "/static/img/public-api-project-img/image2.png",
+                "/static/img/public-api-project-img/image3.png",
+                "/static/img/public-api-project-img/image4.png"
             ]
         }
     ]

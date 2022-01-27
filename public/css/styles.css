@@ -67,7 +67,7 @@ a {
 }
 
 .flex-row-wrap {
-  display: flex;
+  display: flex;`
   flex-flow: row wrap;
   justify-content: space-between;
 }
