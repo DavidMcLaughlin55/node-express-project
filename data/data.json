@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": 1,
-            "project_name": "word-guessing-game",
+            "project_name": "Word Guessing Game",
             "description": "Project requiring a word guessing game built with Javascript.",
             "technologies": [
                 "Html",
@@ -20,7 +20,7 @@
         },
         {
             "id": 2,
-            "project_name": "data-pagination-project",
+            "project_name": "Data Pagination Project",
             "description": "A javascript project using pagination to enhance usability.",
             "technologies": [
                 "Html",
@@ -38,7 +38,7 @@
         },
         {
             "id": 3,
-            "project_name": "interactive-registration-form",
+            "project_name": "Interactive Registration Form",
             "description": "Project requiring a build of a responsive registration form.",
             "technologies": [
                 "Html",
@@ -56,7 +56,7 @@
         },
         {
             "id": 4,
-            "project_name": "public-api-project",
+            "project_name": "Public API Project",
             "description": "Project creating a directory using an API.",
             "technologies": [
                 "Html",

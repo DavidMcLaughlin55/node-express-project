@@ -17,7 +17,7 @@ body {
 
 body {
   position: relative;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Righteous", sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -28,15 +28,14 @@ body {
 }
 
 article {
-  background: #fefefe;
+  background: #B7E4C7;
 }
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Righteous', serif;
 }
 
 h5{
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
@@ -51,7 +50,7 @@ h6{
 
 p{
   font-size: 15px;
-  color: #666;
+  color: #000;
 }
 
 a {
@@ -63,7 +62,7 @@ a {
   min-width: 320px;
   height: 100%;
   min-height: 100%;
-  background: #fefefe;
+  background: #B7E4C7;
 }
 
 .flex-row-wrap {
@@ -82,7 +81,7 @@ a {
   width: 100%;
   max-width: 1200px;
   padding: 40px 50px 30px;
-  background: #fefefe;
+  background: #B7E4C7;
   border-bottom: 1px solid #eaeaea;
 }
 
@@ -114,7 +113,6 @@ nav {
 nav a {
   width: 100%;
   vertical-align: middle;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 2.5px;
@@ -137,7 +135,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: #40916C;
 }
 
 .sidebar-info-box {
@@ -159,7 +157,7 @@ nav a span {
 }
 
 .sidebar h5 {
-  color: #fefefe;
+  color: #000;
   margin: 0 auto 0.5rem;
 }
 
@@ -167,16 +165,15 @@ nav a span {
   text-rendering: optimizeLegibility;
   line-height: 1.6;
   font-size: 14px;
-  color: #999
+  color: #fff;
 }
 
 .sidebar a {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: #fff;
 }
 
 .header {
@@ -238,11 +235,11 @@ nav a span {
   font-size: 125%;
   margin: 0 auto;
   padding-bottom: 40px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #40916C;
 }
 
 .projects-box h5 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
   font-weight: 500;
   font-size: 13px;
   letter-spacing: 2.25px;
