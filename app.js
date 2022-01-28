@@ -27,11 +27,9 @@ app.use((req, res, next) => {
 
 app.use((err, req, res, next) => {
     if (err.status === 404) {
-        console.log("Error 404");
         res.status = 404;
         res.render('error404', err);
     } else {
-        console.log("Error 505")
         err.message = err.message;
         err.status = 500;
         res.render('error500', err);
