@@ -72,6 +72,23 @@
                 "/static/img/public-api-project-img/image3.png",
                 "/static/img/public-api-project-img/image4.png"
             ]
+        },
+        {
+            "id": 5,
+            "project_name": "Responsive Layout Site",
+            "description": "A build of a responsive, mobile first layout with HTML & CSS.",
+            "technologies": [
+                "Html",
+                "CSS"
+            ],
+            "live_link": "https://davidmclaughlin55.github.io/responsive-layout-site/",
+            "github_link": "https://github.com/DavidMcLaughlin55/responsive-layout-site",
+            "image_urls": [
+                "/static/img/responsive-layout-site-img/image1.png",
+                "/static/img/responsive-layout-site-img/image2.png",
+                "/static/img/responsive-layout-site-img/image3.png",
+                "/static/img/responsive-layout-site-img/image4.png"
+            ]
         }
     ]
 }
